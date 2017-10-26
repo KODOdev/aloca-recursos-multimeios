@@ -7,6 +7,9 @@
         'Inicializando listas através do método construtor
         ListaDeRecursos = New ListaRecurso
         ListaDeSolicitacoes = New ListaSolicitacao
+
+        'Incializando conexao com o banco
+        conectaBancoMYSQL()
     End Sub
 
 
@@ -33,6 +36,7 @@
     End Sub
 
     Private Sub Sair_Click(sender As Object, e As EventArgs) Handles Sair.Click
+        fechaConexaoMYSQL()
         Application.Exit()
     End Sub
 

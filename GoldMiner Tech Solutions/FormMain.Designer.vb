@@ -73,7 +73,10 @@ Partial Class FormMain
         Me.Controls.Add(Me.Sair)
         Me.Controls.Add(Me.Solicitar)
         Me.Controls.Add(Me.Cadastrar)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
         Me.Name = "FormMain"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ARM"
         Me.ResumeLayout(False)
         Me.PerformLayout()
