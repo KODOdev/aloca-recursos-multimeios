@@ -78,7 +78,7 @@
     <Compile Include="ListaSolicitacao.vb" />
     <Compile Include="mdl_fechaConexaoBancoMYSQL.vb" />
     <Compile Include="mdl_conectaBancoMYSQL.vb" />
-    <Compile Include="mdl_CarregaDadosMYSQL.vb" />
+    <Compile Include="mdl_cadastraDadosMYSQL.vb" />
     <Compile Include="mdl_credenciaisAcessoBancoMYSQL.vb" />
     <Compile Include="Professor.vb" />
     <Compile Include="Solicitacao.vb" />

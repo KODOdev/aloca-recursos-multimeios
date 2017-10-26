@@ -104,7 +104,10 @@ Partial Class FormCadastrar
         Me.Controls.Add(Me.Quantidade)
         Me.Controls.Add(Me.Descricao)
         Me.Controls.Add(Me.TBDescricao)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
         Me.Name = "FormCadastrar"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Cadastrar Recursos"
         CType(Me.Quantidade, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Codigo, System.ComponentModel.ISupportInitialize).EndInit()

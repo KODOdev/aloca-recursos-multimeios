@@ -15,6 +15,8 @@
 
         recurso.criarRecurso(Codigo.Value, Quantidade.Value, TBDescricao.Text)
 
+        cadastraDadosMYSQL(Codigo.Value, Quantidade.Value, TBDescricao.Text)
+
         cadastrado = True
 
         Me.Close()
