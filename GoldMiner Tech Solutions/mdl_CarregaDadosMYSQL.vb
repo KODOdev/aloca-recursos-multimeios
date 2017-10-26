@@ -2,7 +2,7 @@
 
 Module mdl_CarregaDadosMYSQL
     Private Sub PCarregaDadosMYSSQL()
-        Using con As MySqlConnection = GetConnectionMYSQL()
+        Using con As MySqlConnection = credenciaisMYSQL()
             Try
                 con.Open()
                 Dim sql As String = "SELECT * FROM tb_recurso"
