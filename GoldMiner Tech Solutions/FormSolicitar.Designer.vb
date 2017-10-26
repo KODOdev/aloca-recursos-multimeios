@@ -24,6 +24,7 @@ Partial Class FormSolicitar
     Private Sub InitializeComponent()
         Me.LabelDadosPessoais = New System.Windows.Forms.Label()
         Me.GroupBoxDadosPessoais = New System.Windows.Forms.GroupBox()
+        Me.TelefoneBox = New System.Windows.Forms.TextBox()
         Me.Sala = New System.Windows.Forms.ComboBox()
         Me.TextBoxMatricula = New System.Windows.Forms.TextBox()
         Me.TextBoxNome = New System.Windows.Forms.TextBox()
@@ -38,7 +39,6 @@ Partial Class FormSolicitar
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Codigo = New System.Windows.Forms.NumericUpDown()
         Me.Cod = New System.Windows.Forms.Label()
-        Me.TelefoneBox = New System.Windows.Forms.TextBox()
         Me.GroupBoxDadosPessoais.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.Codigo, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -69,6 +69,15 @@ Partial Class FormSolicitar
         Me.GroupBoxDadosPessoais.Size = New System.Drawing.Size(357, 130)
         Me.GroupBoxDadosPessoais.TabIndex = 2
         Me.GroupBoxDadosPessoais.TabStop = False
+        '
+        'TelefoneBox
+        '
+        Me.TelefoneBox.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.TelefoneBox.Location = New System.Drawing.Point(205, 72)
+        Me.TelefoneBox.MaxLength = 9
+        Me.TelefoneBox.Name = "TelefoneBox"
+        Me.TelefoneBox.Size = New System.Drawing.Size(140, 20)
+        Me.TelefoneBox.TabIndex = 11
         '
         'Sala
         '
@@ -197,15 +206,6 @@ Partial Class FormSolicitar
         Me.Cod.TabIndex = 12
         Me.Cod.Text = "Informe o código do recurso: "
         '
-        'TelefoneBox
-        '
-        Me.TelefoneBox.ImeMode = System.Windows.Forms.ImeMode.NoControl
-        Me.TelefoneBox.Location = New System.Drawing.Point(205, 72)
-        Me.TelefoneBox.MaxLength = 9
-        Me.TelefoneBox.Name = "TelefoneBox"
-        Me.TelefoneBox.Size = New System.Drawing.Size(140, 20)
-        Me.TelefoneBox.TabIndex = 11
-        '
         'FormSolicitar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -217,7 +217,10 @@ Partial Class FormSolicitar
         Me.Controls.Add(Me.Label)
         Me.Controls.Add(Me.CheckBoxListaDeEspera)
         Me.Controls.Add(Me.GroupBoxDadosPessoais)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
         Me.Name = "FormSolicitar"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Solicitações"
         Me.GroupBoxDadosPessoais.ResumeLayout(False)
         Me.GroupBoxDadosPessoais.PerformLayout()
