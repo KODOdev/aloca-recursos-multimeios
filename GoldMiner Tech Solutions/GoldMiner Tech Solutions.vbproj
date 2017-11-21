@@ -82,6 +82,7 @@
     </Compile>
     <Compile Include="ListaRecurso.vb" />
     <Compile Include="ListaSolicitacao.vb" />
+    <Compile Include="mdl_alimentaListaMYSQL.vb" />
     <Compile Include="mdl_mostraRecursosMYSQL.vb" />
     <Compile Include="mdl_cadastraRecursosMYSQL.vb" />
     <Compile Include="mdl_fechaConexaoBancoMYSQL.vb" />

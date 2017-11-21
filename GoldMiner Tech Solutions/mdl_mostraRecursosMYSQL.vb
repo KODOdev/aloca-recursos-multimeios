@@ -11,7 +11,11 @@ Module mdl_mostraRecursosMYSQL
         Using con As MySqlConnection = credenciaisMYSQL()
             con.Open()
             Try
-                sql = "SELECT codigo_recurso AS 'Código do Recurso', descricao_recurso AS 'Nome do Recurso', quantidade_recurso AS 'Quantidade' FROM db_aloca_recursos.tb_recursos;"
+                sql = "SELECT codigo_recurso AS 'Código do Recurso', 
+                              descricao_recurso AS 'Nome do Recurso', 
+                              quantidade_recurso AS 'Quantidade' 
+                              FROM db_aloca_recursos.tb_recursos;"
+
                 cmd = New MySqlCommand(sql, con)
                 da = New MySqlDataAdapter(cmd)
                 dt = New DataTable

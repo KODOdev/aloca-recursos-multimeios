@@ -10,6 +10,8 @@
 
         'Incializando conexao com o banco
         conectaBancoMYSQL()
+
+        ListaDeRecursos.inserirLista(AlimentaLista())
     End Sub
 
 
