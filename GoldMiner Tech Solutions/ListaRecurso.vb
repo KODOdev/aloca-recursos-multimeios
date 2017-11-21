@@ -15,9 +15,6 @@
 
     End Sub
 
-
-
-
     Public Function buscarRec(id As Integer) As TipoRecurso
 
         Dim recurso As TipoRecurso = New TipoRecurso()

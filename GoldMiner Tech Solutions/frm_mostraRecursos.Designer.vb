@@ -22,30 +22,40 @@ Partial Class frm_mostraRecursos
     'Não o modifique usando o editor de códigos.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.dvgRecursos = New System.Windows.Forms.DataGridView()
+        CType(Me.dvgRecursos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'DataGridView1
+        'dvgRecursos
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 12)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(418, 275)
-        Me.DataGridView1.TabIndex = 0
+        Me.dvgRecursos.AllowUserToAddRows = False
+        Me.dvgRecursos.AllowUserToDeleteRows = False
+        Me.dvgRecursos.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.dvgRecursos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells
+        Me.dvgRecursos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells
+        Me.dvgRecursos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dvgRecursos.GridColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.dvgRecursos.Location = New System.Drawing.Point(12, 12)
+        Me.dvgRecursos.Name = "dvgRecursos"
+        Me.dvgRecursos.ReadOnly = True
+        Me.dvgRecursos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.dvgRecursos.Size = New System.Drawing.Size(418, 275)
+        Me.dvgRecursos.TabIndex = 0
         '
         'frm_mostraRecursos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(442, 299)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.dvgRecursos)
         Me.Name = "frm_mostraRecursos"
-        Me.Text = "frm_mostraRecursos"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Text = "Lista de Recursos Cadastrados"
+        CType(Me.dvgRecursos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents dvgRecursos As DataGridView
 End Class

@@ -68,6 +68,7 @@
                     MsgBox("Recurso Disponível!" & vbNewLine & novaSolicitacao.imprimirSolicitacao,, "             Solicitação concluída! ")
                     novoFormSolicitacao.obterKitEscolhido.bloquearRecurso()
 
+
                 End If
 
             End If

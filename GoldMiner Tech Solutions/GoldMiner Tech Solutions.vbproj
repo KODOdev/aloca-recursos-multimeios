@@ -88,6 +88,7 @@
     <Compile Include="mdl_conectaBancoMYSQL.vb" />
     <Compile Include="mdl_cadastraProfessorMYSQL.vb" />
     <Compile Include="mdl_credenciaisAcessoBancoMYSQL.vb" />
+    <Compile Include="mdl_removeRecursoMYSQL.vb" />
     <Compile Include="Professor.vb" />
     <Compile Include="Solicitacao.vb" />
     <Compile Include="TipoRecurso.vb" />
