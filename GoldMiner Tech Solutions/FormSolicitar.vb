@@ -11,11 +11,6 @@ Public Class FormSolicitar
     Dim matricula As Integer
     Dim solicitacaoConcluida As Boolean = False
 
-
-    Private Sub FormMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
     Public Sub New(_listaDeRecursos As ListaRecurso)
 
         ' Essa chama é requisitada pelo designer do formulario, quando existe um parâmetro no construtor. 
@@ -47,6 +42,8 @@ Public Class FormSolicitar
 				estaSolicitacao.criarSolicitacao(solicitante, recursoEscolhido, (Int(Sala.Text)), interesseFila)
 
                 solicitacaoConcluida = True
+
+                RemoveRecursosMYSQL(Codigo.Value)
 
                 Me.Close()
 

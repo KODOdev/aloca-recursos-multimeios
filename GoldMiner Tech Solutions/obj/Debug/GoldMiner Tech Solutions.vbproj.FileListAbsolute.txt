@@ -25,7 +25,6 @@ C:\Users\70601416180\Source\Repos\aloca-recursos-multimeios\GoldMiner Tech Solut
 C:\Users\70601416180\Source\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\bin\Debug\Multimeios.exe
 C:\Users\70601416180\Source\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\bin\Debug\Multimeios.pdb
 C:\Users\70601416180\Source\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\bin\Debug\Multimeios.xml
-C:\Users\70601416180\Source\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\bin\Debug\MySql.Data.dll
 D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\bin\Debug\Multimeios.exe.config
 D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\bin\Debug\Multimeios.exe
 D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\bin\Debug\Multimeios.pdb
@@ -41,3 +40,4 @@ D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\Multimeios
 D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\Multimeios.xml
 D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\Multimeios.pdb
 D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner_Tech_Solutions.frm_mostraRecursos.resources
+C:\Users\70601416180\Source\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner_Tech_Solutions.frm_mostraRecursos.resources

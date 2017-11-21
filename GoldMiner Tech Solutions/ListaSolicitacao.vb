@@ -15,9 +15,6 @@
 
     End Sub
 
-
-
-
     Public Function buscarSolicitacao(MatriculaProfessor As Integer) As Solicitacao
 
         Dim solicitacao As Solicitacao = New Solicitacao()
