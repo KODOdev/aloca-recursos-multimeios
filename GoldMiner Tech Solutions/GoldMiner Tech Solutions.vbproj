@@ -74,11 +74,19 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_mostraRecursos.Designer.vb">
+      <DependentUpon>frm_mostraRecursos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_mostraRecursos.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ListaRecurso.vb" />
     <Compile Include="ListaSolicitacao.vb" />
+    <Compile Include="mdl_mostraRecursosMYSQL.vb" />
+    <Compile Include="mdl_cadastraRecursosMYSQL.vb" />
     <Compile Include="mdl_fechaConexaoBancoMYSQL.vb" />
     <Compile Include="mdl_conectaBancoMYSQL.vb" />
-    <Compile Include="mdl_cadastraDadosMYSQL.vb" />
+    <Compile Include="mdl_cadastraProfessorMYSQL.vb" />
     <Compile Include="mdl_credenciaisAcessoBancoMYSQL.vb" />
     <Compile Include="Professor.vb" />
     <Compile Include="Solicitacao.vb" />
@@ -127,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_mostraRecursos.resx">
+      <DependentUpon>frm_mostraRecursos.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

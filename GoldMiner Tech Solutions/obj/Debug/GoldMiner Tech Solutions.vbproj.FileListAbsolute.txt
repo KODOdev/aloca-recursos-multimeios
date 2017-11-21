@@ -26,3 +26,18 @@ C:\Users\70601416180\Source\Repos\aloca-recursos-multimeios\GoldMiner Tech Solut
 C:\Users\70601416180\Source\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\bin\Debug\Multimeios.pdb
 C:\Users\70601416180\Source\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\bin\Debug\Multimeios.xml
 C:\Users\70601416180\Source\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\bin\Debug\MySql.Data.dll
+D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\bin\Debug\Multimeios.exe.config
+D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\bin\Debug\Multimeios.exe
+D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\bin\Debug\Multimeios.pdb
+D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\bin\Debug\Multimeios.xml
+D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner Tech Solutions.vbprojResolveAssemblyReference.cache
+D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner_Tech_Solutions.FormCadastrar.resources
+D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner_Tech_Solutions.FormSolicitar.resources
+D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner_Tech_Solutions.FormMain.resources
+D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner_Tech_Solutions.Resources.resources
+D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner Tech Solutions.vbproj.GenerateResource.Cache
+D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner Tech Solutions.vbproj.CoreCompileInputs.cache
+D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\Multimeios.exe
+D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\Multimeios.xml
+D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\Multimeios.pdb
+D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner_Tech_Solutions.frm_mostraRecursos.resources

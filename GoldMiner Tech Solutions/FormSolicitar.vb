@@ -39,10 +39,12 @@ Public Class FormSolicitar
 
             Else
 
-                'Cria a solicitação e os professores. Se os dados estiverem corretos a solicitação pode ser concluida.
-                solicitante.criarProfessor(matricula, telefone, TextBoxNome.Text)
+				'Cria a solicitação e os professores. Se os dados estiverem corretos a solicitação pode ser concluida.
+				solicitante.criarProfessor(matricula, telefone, TextBoxNome.Text)
 
-                estaSolicitacao.criarSolicitacao(solicitante, recursoEscolhido, (Int(Sala.Text)), interesseFila)
+				CadastraProfessorMYSQL(matricula, TextBoxNome.Text.ToString(), telefone)
+
+				estaSolicitacao.criarSolicitacao(solicitante, recursoEscolhido, (Int(Sala.Text)), interesseFila)
 
                 solicitacaoConcluida = True
 
@@ -63,7 +65,8 @@ Public Class FormSolicitar
 
     Private Sub RecursosImpressos_Click(sender As Object, e As EventArgs) Handles RecursosImpressos.Click
 
-        MsgBox(kitsCadastrados.impressaoRec())
+        'MsgBox(PesquisaArquivosMYSQL())
+        frm_mostraRecursos.Show()
 
     End Sub
 
