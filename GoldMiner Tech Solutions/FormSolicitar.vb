@@ -37,12 +37,14 @@ Public Class FormSolicitar
 				'Cria a solicitação e os professores. Se os dados estiverem corretos a solicitação pode ser concluida.
 				solicitante.criarProfessor(matricula, telefone, TextBoxNome.Text)
 
-				CadastraProfessorMYSQL(matricula, TextBoxNome.Text.ToString(), telefone)
+                'Passa os parametros para o cadastro do professor no banco
+                CadastraProfessorMYSQL(matricula, TextBoxNome.Text.ToString(), telefone)
 
 				estaSolicitacao.criarSolicitacao(solicitante, recursoEscolhido, (Int(Sala.Text)), interesseFila)
 
                 solicitacaoConcluida = True
 
+                'Pega o codigo informado para subtrair em 1 a quantidade total do mesmo
                 RemoveRecursosMYSQL(Codigo.Value)
 
                 Me.Close()

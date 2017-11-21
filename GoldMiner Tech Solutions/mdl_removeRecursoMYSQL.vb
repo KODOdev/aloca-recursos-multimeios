@@ -15,12 +15,8 @@ Module mdl_removeRecursoMYSQL
                 cmd = New MySqlCommand(sql, con)
 
                 cmd.Parameters.Add("@cod", MySqlDbType.Int16)
-                'cmd.Parameters.Add("@quant", MySqlDbType.Int16)
-                'cmd.Parameters.Add("@desc", MySqlDbType.VarChar, 50)
 
                 cmd.Parameters("@cod").Value = cod
-                'cmd.Parameters("@quant").Value = quant
-                'cmd.Parameters("@desc").Value = desc
 
                 cmd.ExecuteNonQuery()
             Catch ex As Exception

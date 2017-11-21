@@ -11,7 +11,6 @@ c:\users\hezoyam-note\documents\visual studio 2015\Projects\GoldMiner Tech Solut
 c:\users\hezoyam-note\documents\visual studio 2015\Projects\GoldMiner Tech Solutions\GoldMiner Tech Solutions\obj\Debug\Multimeios.pdb
 C:\Users\HEZOYAM-NOTE\Documents\Visual Studio 2015\Projects\GoldMiner Tech Solutions\GoldMiner Tech Solutions\obj\Debug\GoldMiner_Tech_Solutions.FormSolicitar.resources
 C:\Users\HEZOYAM-NOTE\Documents\Visual Studio 2015\Projects\GoldMiner Tech Solutions\GoldMiner Tech Solutions\obj\Debug\GoldMiner_Tech_Solutions.FormCadastrar.resources
-C:\Users\70601416180\Source\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner Tech Solutions.vbprojResolveAssemblyReference.cache
 C:\Users\70601416180\Source\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner_Tech_Solutions.FormCadastrar.resources
 C:\Users\70601416180\Source\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner_Tech_Solutions.FormSolicitar.resources
 C:\Users\70601416180\Source\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner_Tech_Solutions.FormMain.resources
@@ -41,3 +40,4 @@ D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\Multimeios
 D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\Multimeios.pdb
 D:\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner_Tech_Solutions.frm_mostraRecursos.resources
 C:\Users\70601416180\Source\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner_Tech_Solutions.frm_mostraRecursos.resources
+C:\Users\70601416180\Source\Repos\aloca-recursos-multimeios\GoldMiner Tech Solutions\obj\Debug\GoldMiner Tech Solutions.vbprojResolveAssemblyReference.cache
