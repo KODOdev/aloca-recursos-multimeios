@@ -22,6 +22,7 @@ Partial Class FormCadastrar
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormCadastrar))
         Me.TBDescricao = New System.Windows.Forms.TextBox()
         Me.Descricao = New System.Windows.Forms.Label()
         Me.Quantidade = New System.Windows.Forms.NumericUpDown()
@@ -85,6 +86,9 @@ Partial Class FormCadastrar
         '
         'CadastrarRec
         '
+        Me.CadastrarRec.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CadastrarRec.Image = Global.GoldMiner_Tech_Solutions.My.Resources.Resources.check
+        Me.CadastrarRec.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.CadastrarRec.Location = New System.Drawing.Point(15, 85)
         Me.CadastrarRec.Name = "CadastrarRec"
         Me.CadastrarRec.Size = New System.Drawing.Size(361, 23)
@@ -96,7 +100,7 @@ Partial Class FormCadastrar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(413, 120)
+        Me.ClientSize = New System.Drawing.Size(390, 116)
         Me.Controls.Add(Me.CadastrarRec)
         Me.Controls.Add(Me.Codigo)
         Me.Controls.Add(Me.Cod)
@@ -105,6 +109,7 @@ Partial Class FormCadastrar
         Me.Controls.Add(Me.Descricao)
         Me.Controls.Add(Me.TBDescricao)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "FormCadastrar"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

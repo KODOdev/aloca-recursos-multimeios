@@ -120,4 +120,27 @@
   <metadata name="DirectoryEntry1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAQAAEABADoAgAAJgAAABAQEAABAAQAKAEAAA4DAAAoAAAAIAAAAEAAAAABAAQAAAAAAAAC
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAMDAwACAgIAAAAD/AAD/
+        AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAgAAAAAAAAAAAAAAAAAAACPcAAAAAAAAAAAAAAAAAAI
+        //cAAAAAAAAAAAAAAAAAj///cAAAAAAAAAAAAAAACP////cAAAAAAAAAAAAAAI//////cAAAAAAAAAAA
+        AAj//wf///cAAAAAAAAAAACP///wf///cAAAAAAAAAAI/////wf///cAAAAAAAAAj//wf//wf///cAAA
+        AAAACP///wf//w////cAAAAAAI/////wf/d3f///cAAAAAj//wf//wfwB3f///cAAACP///wf//w+HgH
+        f///cAAACP///wf///+PMHf///cAAACP///wf///hzMHf///cAAACP///wf//ze7MHf///cAAACP///w
+        f//z+7MHf//3AAAACP///wf//z+7MHf/cAAAAACP///wf//z+7MHdwAAAAAACP///wf//z+7MHAAAAAA
+        AACP///wf//z+7MAAAAAAAAACP///wf//z+7MAAAAAAAAACP///w///z+7MAAAAAAAAACP//////cD+7
+        MAAAAAAAAACP////9wAD+7QAAAAAAAAACP///3AAAD9GEAAAAAAAAACP//cAAAADaZAAAAAAAAAACP9w
+        AAAAAB2RAAAAAAAAAACHAAAAAAABEAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//n////w
+        ////4H///8A///+AH///AA///gAH//wAA//4AAH/8AAA/+AAAH/AAAA/gAAAHwAAAA+AAAAHwAAAA+AA
+        AAHwAAAB+AAAA/wAAAf+AAAP/wAAH/+AAA//wAAH/+AAA//wAYH/+APA//wH4P/+D/D//x/5//+/////
+        //8oAAAAEAAAACAAAAABAAQAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAA
+        AACAAIAAgIAAAMDAwACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAAAAIAAAAAAAAAI9wAA
+        AAAAAI//cAAAAAAI/w/3AAAAAI+P8P9wAAAI//D///cAAI/w/w8Hf3AACP8P/zMH9wAAj/D/OzCPcAAI
+        /w/zswcAAACP8P87MAAAAAj/D/OzAAAAAI//cDswAAAACPcAA5EAAAAAgAAAEQAAAAAAAAAA/P8AAPh/
+        AADwPwAA4B8AAMAPAACABwAAAAMAAIABAADAAAAA4AEAAPADAAD4AQAA/AAAAP4YAAD/PAAA//8AAA==
+</value>
+  </data>
 </root>

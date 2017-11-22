@@ -17,7 +17,7 @@ Module mdl_alimentaListaMYSQL
                 cmd = New MySqlCommand(sql)
                 da = New MySqlDataAdapter(cmd)
 
-                RecCad.Load(dt)
+                'RecCad.Load(dt)
 
                 Return dt
             Catch ex As Exception
