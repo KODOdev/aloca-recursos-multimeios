@@ -11,9 +11,8 @@
         'Incializando conexao com o banco
         conectaBancoMYSQL()
 
-        ListaDeRecursos.inserirLista(AlimentaLista())
+        'ListaDeRecursos.inserirLista(AlimentaLista())
     End Sub
-
 
     Private Sub Cadastrar_Click(sender As Object, e As EventArgs) Handles Cadastrar.Click
         Dim novoRec As TipoRecurso = New TipoRecurso
@@ -24,7 +23,6 @@
         novoCadastro.ShowDialog()
 
         'O método preenche informações no form e retorna o recurso ou NULO (nothing)
-
         novoRec = novoCadastro.obterRecurso
 
         If Not (IsNothing(novoRec)) Then
@@ -34,7 +32,6 @@
             MsgBox("Recurso cadastrado! ")
 
         End If
-
     End Sub
 
     Private Sub Sair_Click(sender As Object, e As EventArgs) Handles Sair.Click
@@ -43,7 +40,6 @@
     End Sub
 
     Private Sub Solicitar_Click(sender As Object, e As EventArgs) Handles Solicitar.Click
-
         Dim novaSolicitacao As Solicitacao = New Solicitacao
         Dim novoFormSolicitacao As FormSolicitar = New FormSolicitar(ListaDeRecursos)
 
@@ -76,9 +72,5 @@
             End If
 
         End If
-
-
-
     End Sub
-
 End Class

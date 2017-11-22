@@ -22,6 +22,7 @@ Partial Class FormSolicitar
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormSolicitar))
         Me.LabelDadosPessoais = New System.Windows.Forms.Label()
         Me.GroupBoxDadosPessoais = New System.Windows.Forms.GroupBox()
         Me.TelefoneBox = New System.Windows.Forms.TextBox()
@@ -163,6 +164,8 @@ Partial Class FormSolicitar
         '
         'ButtonFinalizarSolicitacao
         '
+        Me.ButtonFinalizarSolicitacao.Image = Global.GoldMiner_Tech_Solutions.My.Resources.Resources.check
+        Me.ButtonFinalizarSolicitacao.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.ButtonFinalizarSolicitacao.Location = New System.Drawing.Point(13, 256)
         Me.ButtonFinalizarSolicitacao.Name = "ButtonFinalizarSolicitacao"
         Me.ButtonFinalizarSolicitacao.Size = New System.Drawing.Size(357, 24)
@@ -172,9 +175,11 @@ Partial Class FormSolicitar
         '
         'RecursosImpressos
         '
-        Me.RecursosImpressos.Location = New System.Drawing.Point(113, 33)
+        Me.RecursosImpressos.Image = Global.GoldMiner_Tech_Solutions.My.Resources.Resources.magnifying_glass_4
+        Me.RecursosImpressos.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.RecursosImpressos.Location = New System.Drawing.Point(91, 31)
         Me.RecursosImpressos.Name = "RecursosImpressos"
-        Me.RecursosImpressos.Size = New System.Drawing.Size(167, 23)
+        Me.RecursosImpressos.Size = New System.Drawing.Size(220, 23)
         Me.RecursosImpressos.TabIndex = 10
         Me.RecursosImpressos.Text = "Visualizar recursos cadastrados"
         Me.RecursosImpressos.UseVisualStyleBackColor = True
@@ -218,10 +223,11 @@ Partial Class FormSolicitar
         Me.Controls.Add(Me.CheckBoxListaDeEspera)
         Me.Controls.Add(Me.GroupBoxDadosPessoais)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "FormSolicitar"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Solicitações"
+        Me.Text = "Solicitar Recurso"
         Me.GroupBoxDadosPessoais.ResumeLayout(False)
         Me.GroupBoxDadosPessoais.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
