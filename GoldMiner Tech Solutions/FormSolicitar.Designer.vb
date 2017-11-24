@@ -48,14 +48,16 @@ Partial Class FormSolicitar
         'LabelDadosPessoais
         '
         Me.LabelDadosPessoais.AutoSize = True
-        Me.LabelDadosPessoais.Location = New System.Drawing.Point(114, 23)
+        Me.LabelDadosPessoais.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelDadosPessoais.Location = New System.Drawing.Point(60, 16)
         Me.LabelDadosPessoais.Name = "LabelDadosPessoais"
-        Me.LabelDadosPessoais.Size = New System.Drawing.Size(143, 13)
+        Me.LabelDadosPessoais.Size = New System.Drawing.Size(243, 20)
         Me.LabelDadosPessoais.TabIndex = 1
         Me.LabelDadosPessoais.Text = "Dados pessoais do professor"
         '
         'GroupBoxDadosPessoais
         '
+        Me.GroupBoxDadosPessoais.BackColor = System.Drawing.Color.Silver
         Me.GroupBoxDadosPessoais.Controls.Add(Me.TelefoneBox)
         Me.GroupBoxDadosPessoais.Controls.Add(Me.Sala)
         Me.GroupBoxDadosPessoais.Controls.Add(Me.TextBoxMatricula)
@@ -177,7 +179,7 @@ Partial Class FormSolicitar
         '
         Me.RecursosImpressos.Image = Global.GoldMiner_Tech_Solutions.My.Resources.Resources.magnifying_glass_4
         Me.RecursosImpressos.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.RecursosImpressos.Location = New System.Drawing.Point(91, 31)
+        Me.RecursosImpressos.Location = New System.Drawing.Point(85, 31)
         Me.RecursosImpressos.Name = "RecursosImpressos"
         Me.RecursosImpressos.Size = New System.Drawing.Size(220, 23)
         Me.RecursosImpressos.TabIndex = 10
@@ -186,6 +188,7 @@ Partial Class FormSolicitar
         '
         'GroupBox1
         '
+        Me.GroupBox1.BackColor = System.Drawing.Color.Silver
         Me.GroupBox1.Controls.Add(Me.Codigo)
         Me.GroupBox1.Controls.Add(Me.Cod)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 59)
@@ -196,7 +199,7 @@ Partial Class FormSolicitar
         '
         'Codigo
         '
-        Me.Codigo.Location = New System.Drawing.Point(179, 14)
+        Me.Codigo.Location = New System.Drawing.Point(191, 15)
         Me.Codigo.Maximum = New Decimal(New Integer() {9999, 0, 0, 0})
         Me.Codigo.Name = "Codigo"
         Me.Codigo.Size = New System.Drawing.Size(120, 20)
@@ -205,7 +208,7 @@ Partial Class FormSolicitar
         'Cod
         '
         Me.Cod.AutoSize = True
-        Me.Cod.Location = New System.Drawing.Point(27, 17)
+        Me.Cod.Location = New System.Drawing.Point(40, 17)
         Me.Cod.Name = "Cod"
         Me.Cod.Size = New System.Drawing.Size(145, 13)
         Me.Cod.TabIndex = 12
@@ -215,6 +218,7 @@ Partial Class FormSolicitar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Silver
         Me.ClientSize = New System.Drawing.Size(386, 288)
         Me.Controls.Add(Me.RecursosImpressos)
         Me.Controls.Add(Me.GroupBox1)

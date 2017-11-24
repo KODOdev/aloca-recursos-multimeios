@@ -36,6 +36,7 @@ Partial Class frm_mostraRecursos
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.dvgRecursos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells
         Me.dvgRecursos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells
+        Me.dvgRecursos.BackgroundColor = System.Drawing.Color.White
         Me.dvgRecursos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dvgRecursos.GridColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.dvgRecursos.Location = New System.Drawing.Point(12, 12)
@@ -49,6 +50,7 @@ Partial Class frm_mostraRecursos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Silver
         Me.ClientSize = New System.Drawing.Size(442, 299)
         Me.Controls.Add(Me.dvgRecursos)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)

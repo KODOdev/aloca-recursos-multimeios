@@ -62,7 +62,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>main.ico</ApplicationIcon>
+    <ApplicationIcon>mci_devices.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
@@ -183,12 +183,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="icon.ico" />
+    <Content Include="mci_devices.ico" />
     <None Include="icons\msg_error.ico" />
     <None Include="icons\registration.ico" />
     <None Include="icons\overlay_share.ico" />
     <None Include="icons\magnifying_glass_4.ico" />
     <None Include="icons\check.ico" />
+    <None Include="images\20514c57292209864a29c4c2c1a50476.jpg" />
     <Content Include="main.ico" />
   </ItemGroup>
   <ItemGroup>
