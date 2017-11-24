@@ -33,7 +33,7 @@ Partial Class FormMain
         '
         Me.Sair.Image = Global.GoldMiner_Tech_Solutions.My.Resources.Resources.msg_error
         Me.Sair.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Sair.Location = New System.Drawing.Point(12, 136)
+        Me.Sair.Location = New System.Drawing.Point(79, 187)
         Me.Sair.Name = "Sair"
         Me.Sair.Size = New System.Drawing.Size(276, 23)
         Me.Sair.TabIndex = 2
@@ -43,11 +43,13 @@ Partial Class FormMain
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Nirmala UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(48, 21)
+        Me.Label1.BackColor = System.Drawing.Color.Honeydew
+        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label1.Font = New System.Drawing.Font("Gill Sans MT", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.Label1.Location = New System.Drawing.Point(64, 40)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(214, 17)
+        Me.Label1.Size = New System.Drawing.Size(307, 32)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Alocação de Recursos Multimeios"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -56,7 +58,7 @@ Partial Class FormMain
         '
         Me.Solicitar.Image = Global.GoldMiner_Tech_Solutions.My.Resources.Resources.overlay_share
         Me.Solicitar.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Solicitar.Location = New System.Drawing.Point(12, 97)
+        Me.Solicitar.Location = New System.Drawing.Point(79, 148)
         Me.Solicitar.Name = "Solicitar"
         Me.Solicitar.Size = New System.Drawing.Size(276, 23)
         Me.Solicitar.TabIndex = 1
@@ -65,9 +67,10 @@ Partial Class FormMain
         '
         'Cadastrar
         '
+        Me.Cadastrar.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Cadastrar.Image = Global.GoldMiner_Tech_Solutions.My.Resources.Resources.registration
         Me.Cadastrar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Cadastrar.Location = New System.Drawing.Point(12, 59)
+        Me.Cadastrar.Location = New System.Drawing.Point(79, 108)
         Me.Cadastrar.Name = "Cadastrar"
         Me.Cadastrar.Size = New System.Drawing.Size(276, 23)
         Me.Cadastrar.TabIndex = 0
@@ -78,7 +81,9 @@ Partial Class FormMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(303, 171)
+        Me.BackColor = System.Drawing.Color.Silver
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.ClientSize = New System.Drawing.Size(431, 227)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Sair)
         Me.Controls.Add(Me.Solicitar)

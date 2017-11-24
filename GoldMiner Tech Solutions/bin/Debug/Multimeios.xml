@@ -22,6 +22,11 @@ Multimeios
   pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
 </summary>
 </member>
+<member name="P:GoldMiner_Tech_Solutions.My.Resources.Resources._20514c57292209864a29c4c2c1a50476">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:GoldMiner_Tech_Solutions.My.Resources.Resources.check">
 <summary>
   Consulta um recurso localizado do tipo System.Drawing.Bitmap.

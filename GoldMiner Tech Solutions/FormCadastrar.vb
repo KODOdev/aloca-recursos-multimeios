@@ -18,13 +18,12 @@
     End Sub
 
     Private Sub validarCadastro()
-        If (Not (String.IsNullOrWhiteSpace(Descricao.Text))) And (Quantidade.Value <> 0) And (Codigo.Value <> 0) Then
+        If (Not (String.IsNullOrWhiteSpace(Descricao.Text))) And (Quantidade.Value <> 0) And (Codigo.Value > 0) Then
             CadastrarRec.Enabled = 1
         Else
             CadastrarRec.Enabled = 0
         End If
     End Sub
-
     Public Function obterRecurso() As TipoRecurso
         If cadastrado Then
             Return recurso
@@ -40,6 +39,7 @@
 
     Private Sub Codigo_ValueChanged(sender As Object, e As EventArgs) Handles Codigo.ValueChanged
         validarCadastro()
+
     End Sub
 
     Private Sub TBDescricao_TextChanged(sender As Object, e As EventArgs) Handles TBDescricao.TextChanged

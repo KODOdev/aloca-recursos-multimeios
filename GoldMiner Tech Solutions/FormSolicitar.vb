@@ -43,7 +43,7 @@ Public Class FormSolicitar
     End Sub
 
     Private Sub RecursosImpressos_Click(sender As Object, e As EventArgs) Handles RecursosImpressos.Click
-        'MsgBox(PesquisaArquivosMYSQL())
+        'MsgBox(kitsCadastrados.impressaoRec())
         frm_mostraRecursos.Show()
     End Sub
 
