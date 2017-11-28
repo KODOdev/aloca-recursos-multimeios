@@ -1,31 +1,37 @@
 ﻿Imports MySql.Data.MySqlClient
 
 Module mdl_alimentaListaMYSQL
-    Public Function AlimentaLista()
+    Public Sub AlimentaLista(ListaDeRecursos)
 
         Dim sql As String
         Dim cmd As MySqlCommand
-        Dim da As MySqlDataAdapter
         Dim dt As New DataTable()
-        Dim RecCad As New DataSet
 
         Using con As MySqlConnection = credenciaisMYSQL()
             con.Open()
             Try
-                sql = "SELECT * FROM db_aloca_recursos.tb_recursos;"
+                sql = "SELECT codigo_recurso, 
+                              descricao_recurso, 
+                              quantidade_recurso 
+                              FROM db_aloca_recursos.tb_recursos;"
 
-                cmd = New MySqlCommand(sql)
-                da = New MySqlDataAdapter(cmd)
+                cmd = New MySqlCommand(sql, con)
 
-                'RecCad.Load(dt)
+                Dim da As New MySqlDataAdapter(cmd)
 
-                Return dt
+                da.Fill(dt)
+
+                For i As Integer = 0 To dt.Rows.Count - 1
+                    Dim str As String = dt.Rows(i).ToString
+                    Dim dados As TipoRecurso = CType(str, TipoRecurso)
+
+                    ListaDeRecursos.inserirLista(dados)
+                Next
             Catch ex As Exception
-                MsgBox(ex.Message)
+                MsgBox("Erro ao popular lista! " + vbCrLf + vbCrLf + ex.Message)
             End Try
             con.Close()
         End Using
 
-        Return dt
-    End Function
+    End Sub
 End Module

@@ -21,7 +21,7 @@ Public Class FormSolicitar
     Private Sub ButtonFinalizarSolicitacao_Click(sender As Object, e As EventArgs) Handles ButtonFinalizarSolicitacao.Click
         Try
             If matricula < 1000 Or matricula > 9999 Then
-                MsgBox("O numero de matricula informado não é valido.")
+                MsgBox("O número de matrícula informado não é valido.")
                 matricula = 0
             Else
                 'Cria a solicitação e os professores. Se os dados estiverem corretos a solicitação pode ser concluida.
