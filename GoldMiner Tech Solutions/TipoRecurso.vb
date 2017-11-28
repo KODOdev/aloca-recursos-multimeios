@@ -1,5 +1,6 @@
-﻿Public Class TipoRecurso
+﻿Imports GoldMiner_Tech_Solutions
 
+Public Class TipoRecurso
 
     Private idTipoRecurso As Integer
     Private descricao As String
@@ -46,5 +47,4 @@
         Return (qtdRecurso - qtdUso)
 
     End Function
-
 End Class

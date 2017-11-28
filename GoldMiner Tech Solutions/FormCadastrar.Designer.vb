@@ -51,6 +51,7 @@ Partial Class FormCadastrar
         'Descricao
         '
         Me.Descricao.AutoSize = True
+        Me.Descricao.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Descricao.Location = New System.Drawing.Point(6, 16)
         Me.Descricao.Name = "Descricao"
         Me.Descricao.Size = New System.Drawing.Size(111, 13)

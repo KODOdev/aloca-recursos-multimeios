@@ -48,10 +48,10 @@ Partial Class FormSolicitar
         'LabelDadosPessoais
         '
         Me.LabelDadosPessoais.AutoSize = True
-        Me.LabelDadosPessoais.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LabelDadosPessoais.Location = New System.Drawing.Point(60, 16)
+        Me.LabelDadosPessoais.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelDadosPessoais.Location = New System.Drawing.Point(69, 16)
         Me.LabelDadosPessoais.Name = "LabelDadosPessoais"
-        Me.LabelDadosPessoais.Size = New System.Drawing.Size(243, 20)
+        Me.LabelDadosPessoais.Size = New System.Drawing.Size(224, 22)
         Me.LabelDadosPessoais.TabIndex = 1
         Me.LabelDadosPessoais.Text = "Dados pessoais do professor"
         '
@@ -111,7 +111,7 @@ Partial Class FormSolicitar
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 100)
+        Me.Label2.Location = New System.Drawing.Point(6, 103)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(150, 13)
         Me.Label2.TabIndex = 3
@@ -157,10 +157,10 @@ Partial Class FormSolicitar
         'Label
         '
         Me.Label.AutoSize = True
-        Me.Label.Font = New System.Drawing.Font("Consolas", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label.Location = New System.Drawing.Point(51, 9)
+        Me.Label.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label.Location = New System.Drawing.Point(68, 6)
         Me.Label.Name = "Label"
-        Me.Label.Size = New System.Drawing.Size(297, 19)
+        Me.Label.Size = New System.Drawing.Size(255, 22)
         Me.Label.TabIndex = 4
         Me.Label.Text = "Ficha de solicitação de recursos"
         '

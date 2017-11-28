@@ -11,7 +11,8 @@
         'Incializando conexao com o banco
         conectaBancoMYSQL()
 
-        'ListaDeRecursos.inserirLista(AlimentaLista())
+        'Preenche a lista interna do programa com os dados que estao no banco (se houverem)
+        'AlimentaLista(ListaDeRecursos)
     End Sub
 
     Private Sub Cadastrar_Click(sender As Object, e As EventArgs) Handles Cadastrar.Click
